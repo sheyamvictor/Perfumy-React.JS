@@ -1,0 +1,102 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+.clch{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    background-color: black;
+    padding:13px; 
+}
+
+
+.ttt{
+    display:flex;
+    gap: 15px;
+    text-transform: capitalize;
+    text-decoration: none;    
+}
+
+.ttl{
+    color: beige;
+}
+
+.ttl:hover{
+text-decoration: underline;
+cursor: pointer; 
+color: aliceblue;
+}
+
+.dtag{
+    padding: 10px;
+}
+
+.dtagh2{
+    text-align: center;
+    text-decoration: underline;
+}
+
+.dtagpar{
+    display: flex;
+    text-align: center;
+    font-size: large;
+    font-weight: bolder;
+}
+
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    margin-top: 10px;
+
+}
+
+.box input{
+    
+    width: 80%;
+    padding: 2px;
+    text-align: justify;
+    border: solid black 3px;
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    margin: 10px;
+    gap: 10px;
+
+
+    
+    
+}
+
+
+.box1-img ,.box2-img,.box3-img{
+
+    border: solid black 1px;
+    text-align: center;
+    width: 200px;
+    padding: 10px;
+}
+
+.box1-img h3 ,.box2-img h3,.box3-img h3{
+    text-decoration: underline;
+}
+
+.footer-cont{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    background-color: black;
+    padding: 20px;
+    color: aliceblue;
+    gap:5px;
+}
